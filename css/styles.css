@@ -1,0 +1,187 @@
+/**************Tag SELECTORS***/
+
+body{
+  margin:0;
+  font-family: Noto Sans, sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  margin:50px auto 50px auto;
+  font-size: 2.5rem;
+  color:#66BFBF;
+}
+
+h3{
+  color: #519898;
+  font-weight: bolder;
+}
+
+p {
+  margin:20px auto 20px auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #eaf6f6;
+}
+
+hr{
+  border-style: none;
+  border-bottom: 6px dotted lightgrey;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/**************Class SELECTORS***/
+.top-container{
+  background-color: #feffde;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-introduction{
+  font-weight: normal;
+}
+
+.Me{
+  text-decoration: underline;
+}
+
+.top-cloud, .bottom-cloud{
+  margin-left: 10px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:20%;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:20%;
+  bottom:300px;
+}
+
+.mountain{
+  position: relative;
+}
+
+.profile{
+  width:50%;
+  margin: 100px auto 100px auto;
+}
+
+.jaguar{
+  width:25%;
+  border-radius: 100%;
+  margin: 30px auto 30px auto;
+}
+
+.profile-paragraph{
+  width:50%;
+  line-height: 2;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.football{
+  width:25%;
+  border-radius: 100%;
+  float:left;
+  margin-right: 30px;
+}
+
+.img-smile{
+  width:25%;
+  border-radius: 100%;
+  float:right;
+  margin-left: 30px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding:2rem;
+}
+
+
+.contact-message{
+  width:40%;
+  margin: 2rem auto;
+}
+
+.p-copyright{
+  color: white;
+  font-size: 0.85rem;
+  padding: 1rem 0;
+}
+
+
+
+.BUTTON_HBY {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #BFE2E2);
+   background-image: -moz-linear-gradient(top, #66BFBF, #BFE2E2);
+   background-image: -ms-linear-gradient(top, #66BFBF, #BFE2E2);
+   background-image: -o-linear-gradient(top, #66BFBF, #BFE2E2);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #BFE2E2);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   margin:1rem auto 3rem auto;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_HBY:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link{
+  color:#11999E;
+  padding-left: 1rem;
+}
+
+
+/************************************test***************************************/
+
+
+/**************ID SELECTORS***/
